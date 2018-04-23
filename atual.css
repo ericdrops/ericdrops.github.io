@@ -1,0 +1,41 @@
+* {
+    text-align:center;
+    font-family:courier, "courier new";
+}
+body {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+html {
+height: 100%;
+}
++main, nav, header{
+    margin-left:10%;
+    margin-right:10%;
+}
+li{
+    display:inline;
+    padding-left:5%;
+    padding-right:5%
+}
+
+a: hover{
+background-color: rgba(0, 0, 255, 0.5);    
+}
+a{
+color: white;
+text-decoration:none;  
+text-transform:uppercase;
+}
+a:hover{
+    font-weight:bold;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+nav{
+    border: 3px solid white;
+    background-color: rgba(0, 0, 255, 0.4)
+}
